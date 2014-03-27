@@ -182,8 +182,8 @@ def single_run():
     f = FHN_2(aParam1 = a, aParam2 = 0)
     f.e2.rate=alpha
     f.e2.state = zeta
-    f.set_xoffset(0.915)
-    f.set_D(0.1)
+    f.set_xoffset(0.6)
+    f.set_D(0.9)
     f.solve(1000)
     f.set_visualize(True)
     f.e2.x += f.xoffset
